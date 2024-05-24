@@ -27,7 +27,7 @@ function checkNumber() {
         checkResult.textContent = `Número ${number} já foi sorteado.`;
         checkResult.style.color = 'green';
     } else {
-        checkResult.textContent = `Number ${number} não foi sorteado ainda.`;
+        checkResult.textContent = `Número ${number} não foi sorteado ainda.`;
         checkResult.style.color = 'red';
     }
 }
