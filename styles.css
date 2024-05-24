@@ -3,7 +3,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     background-color: #98b9b1;
 }
@@ -42,4 +42,21 @@ button:hover {
     font-weight: bold;
     border-radius: 1rem;
     border: 1px solid black;
+}
+
+@media screen and (max-width: 400px) {
+	.container div {
+	    display: flex;
+	    flex-direction: column;
+	    gap: .5rem;
+	}
+	
+	#drawnNumbers, 
+	#checkResult {
+	    font-size: 1.5rem;
+	}
+
+	.txtNumber {
+	    padding: 1rem;
+	}
 }
