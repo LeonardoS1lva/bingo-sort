@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #98b9b1;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#drawnNumbers, 
+#checkResult {
+    margin-top: 20px;
+    font-size: 2rem;
+}
+
+button {
+    color: white;
+    background-color: #0e73a3;
+    border: 1px solid white;
+    padding: 1rem 1.5rem;
+    border-radius: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #0e73a3dd;
+    cursor: pointer;
+}
+
+.txtNumber {
+    padding: 1rem 1.5rem;
+    font-weight: bold;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
